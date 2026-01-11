@@ -2,8 +2,6 @@ from circleshape import *
 
 class Asteroid(CircleShape):
 
-    containers = ()
-
     def __init__(self, x, y, radius):
         super().__init__(x, y, radius)
 
